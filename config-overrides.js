@@ -119,8 +119,8 @@ module.exports = {
       // 处理警告  React-Hot-Loader: react-🔥-dom patch is not detected. React 16.6+ features may not work.
       // 'react-dom': '@hot-loader/react-dom'
     }),
-    addDecoratorsLegacy(), // 支持装饰器
-    stylus()
+    addDecoratorsLegacy() // 支持装饰器
+    // stylus()
   ),
   devServer: overrideDevServer(addProxy())
 }
